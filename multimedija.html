@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Multimedija</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <div class="hero-content">
+        <img src="slike/mojaslika.jpg" alt="Moja slika" class="profile-img">
+        <div>
+            <h1>Nataša Krajina</h1>
+            <h2>Osobna web stranica</h2>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="multimedija.html">Multimedija</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">Vanjska web stranica</a></li>
+        <li><a href="mediji/kalendar.pdf" target="_blank">PDF dokument</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Slike</h2>
+        <img src="slike/slika1.jpg" alt="Slika 1" class="gallery">
+        <img src="slike/slika2.jpg" alt="Slika 2" class="gallery">
+        <img src="slike/slika3.jpg" alt="Slika 3" class="gallery">
+    </section>
+
+    <section>
+        <h2>Video</h2>
+        <video controls width="400">
+            <source src="mediji/moj_video_zadatak.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section>
+        <h2>YouTube video</h2>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lIxQe1R5hs0?si=7OnxaueG84mYb0Bl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h2>Zvuk</h2>
+        <audio controls class="audio">
+            <source src="mediji/audio.mp3" type="audio/mpeg">
+            Vaš preglednik ne podržava audio.
+        </audio>
+    </section>
+</main>
+
+</body>
+</html>
